@@ -12,7 +12,7 @@ import {
 import { FileWithPath } from '@mantine/dropzone';
 import { getCombinedSearchResults, ProductType, ResponseData } from '../../services/combinedSearch';
 import { useState } from 'react';
-import { IconArrowRight } from '@tabler/icons-react';
+import { IconArrowRight, IconLoader } from '@tabler/icons-react';
 
 type PropType = {
   file: FileWithPath | null;
@@ -27,6 +27,7 @@ const sizesList = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
 const HardFilters = (props: PropType) => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<ResponseData | null>(null);
+  const [loadingResultsPage, setLoadingResultsPage] = useState(false);
 
   getCombinedSearchResults().then((response) => {
     setData(response);
@@ -58,7 +59,7 @@ const HardFilters = (props: PropType) => {
         <Grid>
           {data.brandList.map((brand) => (
             <Grid.Col span={4} key={brand}>
-              <Checkbox label={brand} value={brand} checked />
+              <Checkbox label={brand} value={brand} />
             </Grid.Col>
           ))}
         </Grid>
@@ -72,7 +73,7 @@ const HardFilters = (props: PropType) => {
         <Grid>
           {sizesList.map((size) => (
             <Grid.Col span={3} key={size}>
-              <Checkbox label={size} value={size} checked />
+              <Checkbox label={size} value={size} />
             </Grid.Col>
           ))}
         </Grid>
@@ -95,14 +96,20 @@ const HardFilters = (props: PropType) => {
       <br />
       <Button
         variant="light"
-        rightSection={<IconArrowRight size={14} />}
+        rightSection={loadingResultsPage ? <IconLoader size={14} /> : <IconArrowRight size={14} />}
         color="teal"
         onClick={() => {
-          props.setParallax(false);
-          props.setProductsToShow(data.products);
-          props.closeModal();
+          setLoadingResultsPage(true);
+          const randomTime = Math.floor(Math.random() * 2000) + 1000;
+
+          setTimeout(() => {
+            setLoadingResultsPage(false);
+            props.setParallax(false);
+            props.setProductsToShow(data.products);
+            props.closeModal();
+          }, randomTime);
         }}>
-        Show Me!
+        {loadingResultsPage ? 'Loading' : 'Show Me!'}
       </Button>
     </Card>
   );
