@@ -100,7 +100,7 @@ const HardFilters = (props: PropType) => {
         color="teal"
         onClick={() => {
           setLoadingResultsPage(true);
-          const randomTime = Math.floor(Math.random() * 5000) + 1500;
+          const randomTime = Math.floor(Math.random() * 1500) + 5000;
 
           setTimeout(() => {
             setLoadingResultsPage(false);
