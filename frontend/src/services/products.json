@@ -210,6 +210,16 @@
     "type": "query2"
   },
   {
+    "id": 23,
+    "name": "AVANOVA Bell-Bottom Men Cargo Jeans",
+    "price": 799,
+    "imageURL": "https://m.media-amazon.com/images/I/71KPGDAYmfL._SY741_.jpg",
+    "rating": 4.5,
+    "brand": "AVANOVA",
+    "amazonURL": "https://www.amazon.in/AVANOVA-Cargo-Denim-Pant-Wide/dp/B0D3YP1LHT/",
+    "type": "query2"
+  },
+  {
     "id": 22,
     "name": "Allen Solly Men Regular Fit Jeans",
     "price": 1039,

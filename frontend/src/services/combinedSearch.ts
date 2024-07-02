@@ -26,7 +26,7 @@ export const getCombinedSearchResults = async (queryText: string): Promise<Respo
   const minPrice = Math.min(...productsList.map((product) => product.price));
   const maxPrice = Math.max(...productsList.map((product) => product.price));
 
-  const timeout = Math.random() * 2500 + 1000;
+  const timeout = Math.random() * 5000 + 2000;
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
