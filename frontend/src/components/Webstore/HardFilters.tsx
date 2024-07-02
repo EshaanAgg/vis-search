@@ -29,7 +29,7 @@ const HardFilters = (props: PropType) => {
   const [data, setData] = useState<ResponseData | null>(null);
   const [loadingResultsPage, setLoadingResultsPage] = useState(false);
 
-  getCombinedSearchResults().then((response) => {
+  getCombinedSearchResults(props.query).then((response) => {
     setData(response);
     setLoading(false);
   });
@@ -59,7 +59,7 @@ const HardFilters = (props: PropType) => {
         <Grid>
           {data.brandList.map((brand) => (
             <Grid.Col span={4} key={brand}>
-              <Checkbox label={brand} value={brand} />
+              <Checkbox label={brand} value={brand} defaultChecked />
             </Grid.Col>
           ))}
         </Grid>
@@ -73,7 +73,7 @@ const HardFilters = (props: PropType) => {
         <Grid>
           {sizesList.map((size) => (
             <Grid.Col span={3} key={size}>
-              <Checkbox label={size} value={size} />
+              <Checkbox label={size} value={size} defaultChecked />
             </Grid.Col>
           ))}
         </Grid>
@@ -100,7 +100,7 @@ const HardFilters = (props: PropType) => {
         color="teal"
         onClick={() => {
           setLoadingResultsPage(true);
-          const randomTime = Math.floor(Math.random() * 2000) + 1000;
+          const randomTime = Math.floor(Math.random() * 2500) + 1500;
 
           setTimeout(() => {
             setLoadingResultsPage(false);

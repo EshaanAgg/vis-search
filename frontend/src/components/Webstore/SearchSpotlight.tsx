@@ -44,7 +44,8 @@ const SearchSpotlight = (props: PropType) => {
       onClose={closeModal}
       title="Amazon Search Redefined"
       centered
-      size="auto"
+      size={1000}
+      h={700}
       overlayProps={{
         backgroundOpacity: 0.55,
         blur: 3

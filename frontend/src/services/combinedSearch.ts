@@ -8,7 +8,7 @@ export type ProductType = {
   rating: number;
   amazonURL: string;
   brand: string;
-  type: 'query' | 'home';
+  type: 'query1' | 'query2' | 'home';
 };
 
 export type ResponseData = {
@@ -17,15 +17,16 @@ export type ResponseData = {
   priceRange: [number, number];
 };
 
-export const getCombinedSearchResults = async (): Promise<ResponseData> => {
-  const productsList = (products as ProductType[]).filter((p) => p.type === 'query');
+export const getCombinedSearchResults = async (queryText: string): Promise<ResponseData> => {
+  const productsList = (products as ProductType[]).filter(
+    (p) => p.type === (queryText.toLowerCase().includes('blue') ? 'query2' : 'query1')
+  );
 
   const brandList = Array.from(new Set(productsList.map((product) => product.brand)));
   const minPrice = Math.min(...productsList.map((product) => product.price));
   const maxPrice = Math.max(...productsList.map((product) => product.price));
 
-  // Choose a random timeout between 0.5 to 2 seconds
-  const timeout = Math.random() * 1500 + 500;
+  const timeout = Math.random() * 2500 + 1000;
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
