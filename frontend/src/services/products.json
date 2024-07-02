@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Accmetees Women Graphic Printed Round Neck Oversized T-Shirt",
-    "price": 349,
-    "imageURL": "https://m.media-amazon.com/images/I/41xWia1IA3L._SY500_.jpg",
-    "rating": 4.5,
-    "brand": "Accmetees",
-    "amazonURL": "https://www.amazon.in/Accmetees-Oversize-Cotton-Graphic-Printed/dp/B0CVMZSY5D/",
-    "type": "query"
+    "name": "Lymio Men Cargo || Men Cargo Pants || Men Cargo Pants Cotton || Cargos for Men (Cargo-01-04)",
+    "price": 619,
+    "imageURL": "https://m.media-amazon.com/images/I/51NSC2qvOxL._SY741_.jpg",
+    "rating": 3.6,
+    "brand": "Lymio",
+    "amazonURL": "https://amzn.in/d/02dOYyk4",
+    "type": "query1"
   },
   {
     "id": 2,
-    "name": "RodZen Cotton Half Sleeve Solid Basic Oversized",
-    "price": 299,
-    "imageURL": "https://m.media-amazon.com/images/I/513n4h8M9AL._SY550_.jpg",
-    "rating": 4.2,
-    "brand": "RodZen",
-    "amazonURL": "https://www.amazon.in/RodZen-Cotton-Oversized-T-Shirt-RZ01WSOLIDWHITE-2XL_White_2XL/dp/B0BGLD42RG/",
-    "type": "query"
+    "name": "The Indian Garage Co Men Cargos",
+    "price": 692,
+    "imageURL": "https://m.media-amazon.com/images/I/81e-Bdu0P8L._SX569_.jpg",
+    "rating": 3.8,
+    "brand": "The Indian Garage Co",
+    "amazonURL": "https://amzn.in/d/0gg9RYAG",
+    "type": "query1"
   },
   {
     "id": 3,
@@ -121,53 +121,53 @@
   },
   {
     "id": 13,
-    "name": "Bewakoof Women's Graphic Printed 100% Cotton T-Shirt",
-    "price": 259,
-    "imageURL": "https://m.media-amazon.com/images/I/51puNph6HJL._SX679_.jpg",
-    "rating": 4.0,
-    "brand": "Bewakoof",
-    "amazonURL": "https://amzn.in/d/0iazuch8",
-    "type": "query"
+    "name": "Urbano Fashion Men's Loose Baggy Fit Cargo Jeans with 6 Pockets Non-Stretchable",
+    "price": 959,
+    "imageURL": "https://m.media-amazon.com/images/I/61iqULhodjL._SX679_.jpg",
+    "rating": 3.1,
+    "brand": "Urbano Fashion",
+    "amazonURL": "https://amzn.in/d/07YLKuo8",
+    "type": "query2"
   },
   {
     "id": 14,
-    "name": "Levi's Women's Slim Fit Batwing Graphic Print T-Shirt",
-    "price": 999,
-    "imageURL": "https://m.media-amazon.com/images/I/81iaX6+XE7L._SX569_.jpg",
-    "rating": 4.1,
-    "brand": "Levi's",
-    "amazonURL": "https://amzn.in/d/0jikDsEy",
-    "type": "query"
+    "name": "Men Cargo || Men Cargo Pants || Men Cargo Pants Cotton || Cargos for Men (TP-12-15)",
+    "price": 509,
+    "imageURL": "https://m.media-amazon.com/images/I/61y3y0IpYqL._SY741_.jpg",
+    "rating": 3.4,
+    "brand": "POSHAX",
+    "amazonURL": "https://amzn.in/d/05uaaZsK",
+    "type": "query2"
   },
   {
     "id": 15,
-    "name": "Max Women's Regular Fit T-Shirt (MARS4BWHITE_WHITE)",
-    "price": 199,
-    "imageURL": "https://m.media-amazon.com/images/I/81UViYvCIKL._SX569_.jpg",
-    "rating": 3.8,
-    "brand": "Max",
-    "amazonURL": "https://amzn.in/d/0709ZzFw",
-    "type": "query"
+    "name": "STUDIO NEXX Men's Straight Fit Black Cotton Cargo Trouser",
+    "price": 899,
+    "imageURL": "https://m.media-amazon.com/images/I/61i-Lmr1-nL._SY741_.jpg",
+    "rating": 4.0,
+    "brand": "STUDIO NEXX",
+    "amazonURL": "https://amzn.in/d/07ULkExW",
+    "type": "query2"
   },
   {
     "id": 16,
-    "name": "JUNEBERRY White T-Shirt for Women/Girls",
-    "price": 325,
-    "imageURL": "https://m.media-amazon.com/images/I/61kYcwuPj-L._SY741_.jpg",
-    "rating": 4.0,
-    "brand": "JUNEBERRY",
-    "amazonURL": "https://amzn.in/d/01nN7R8z",
-    "type": "query"
+    "name": "Urbano Fashion Men's Loose Baggy Fit Cargo Jeans with 6 Pockets Non-Stretchable",
+    "price": 959,
+    "imageURL": "https://m.media-amazon.com/images/I/61TqhakRnUL._SX679_.jpg",
+    "rating": 3.1,
+    "brand": "Urbano Fashion",
+    "amazonURL": "https://amzn.in/d/07yzGAwr",
+    "type": "query1"
   },
   {
     "id": 17,
-    "name": "LEOTUDE Women's Oversized Half Sleeve T-Shirts",
-    "price": 298,
-    "imageURL": "https://m.media-amazon.com/images/I/61uHcuurFbL._SY741_.jpg",
-    "rating": 3.8,
-    "brand": "LEOTUDE",
-    "amazonURL": "https://amzn.in/d/09uyx6Cu",
-    "type": "query"
+    "name": "STUDIO NEXX Men's Regular Fit Stretch Jeans",
+    "price": 779,
+    "imageURL": "https://m.media-amazon.com/images/I/71g7cglk7GL._SX679_.jpg",
+    "rating": 3.6,
+    "brand": "STUDIO NEXX",
+    "amazonURL": "https://amzn.in/d/0f8ikbeY",
+    "type": "query1"
   },
   {
     "id": 18,
@@ -207,7 +207,7 @@
     "rating": 3.7,
     "brand": "KOTTY",
     "amazonURL": "https://amzn.in/d/01ntlDT2",
-    "type": "home"
+    "type": "query2"
   },
   {
     "id": 22,
